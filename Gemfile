@@ -50,10 +50,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0' # Change version
 end
 
-group :development do
+# group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-end
+# end
 
 group :test do
   gem 'factory_bot_rails', '~> 4.0'
